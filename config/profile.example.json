@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "offline_manual",
+  "target_roles": [],
+  "target_levels": [],
+  "excluded_roles": [],
+  "cities": [],
+  "work_modes": [],
+  "salary": {
+    "currency": "CNY",
+    "period": "monthly",
+    "minimum": null,
+    "maximum": null,
+    "matching_rule": null,
+    "tax_basis": null,
+    "annual_salary_months": null,
+    "accept_negotiable": null,
+    "unknown_requires_review": true
+  },
+  "hard_requirements": [],
+  "soft_preferences": [],
+  "preferred_industries": [],
+  "excluded_employers": [],
+  "outreach": {
+    "action": "review_only",
+    "max_new_conversations": null,
+    "send_attachment": false
+  },
+  "resume_version": "",
+  "external_send_enabled": false,
+  "schedule_enabled": false
+}

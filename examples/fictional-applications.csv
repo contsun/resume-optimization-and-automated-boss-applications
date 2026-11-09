@@ -1,0 +1,3 @@
+record_id,platform,employer_key,job_key,recruiter_key,role_family,location,status,resume_version,greeting_verified_at,resume_sent_verified_at,replied_at,interview_at,evidence_ref,next_action,notes
+demo-001,demo-platform,fictional-a,demo-job-a,demo-person-a,service-product,demo-city,greeting_verified,demo-v1,2026-01-02T10:00:00+08:00,,,,fictional-evidence-a,人工等待,全行均为虚构
+demo-002,demo-platform,fictional-b,demo-job-b,demo-person-b,retail-product,demo-city,resume_sent_verified,demo-v1,2026-01-02T11:00:00+08:00,2026-01-02T11:05:00+08:00,,,fictional-evidence-b,人工等待,全行均为虚构

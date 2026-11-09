@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "dry_run": true,
+  "timezone": "Asia/Shanghai",
+  "weekdays": [1, 2, 3, 4, 5, 6, 7],
+  "windows": [
+    {"name": "morning", "start": "09:30", "end": "11:30"},
+    {"name": "afternoon", "start": "14:30", "end": "16:00"}
+  ],
+  "limits": {
+    "per_batch": 50,
+    "per_day": 100,
+    "minimum_interval_seconds": 31,
+    "maximum_run_minutes": 130,
+    "maximum_candidates": 200,
+    "maximum_expansions": 10
+  },
+  "browser": {
+    "adapter": "chrome_macos",
+    "account_name": "",
+    "window_id": null,
+    "tab_id": null
+  },
+  "matching": {
+    "required_keywords": [],
+    "excluded_keywords": [],
+    "allowed_education": [],
+    "employer_aliases": {},
+    "distinct_employers_per_batch": true,
+    "require_manual_review": false
+  },
+  "notification": {
+    "enabled": false,
+    "command": []
+  }
+}
